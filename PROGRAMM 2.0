@@ -1,0 +1,33 @@
+let distance = 0
+let d1 = 0
+let d2 = 0
+let d3 = 0
+let d4 = 0
+let d5 = 0
+d5 = sonar.ping(
+DigitalPin.P1,
+DigitalPin.P2,
+PingUnit.Centimeters
+)
+d4 = sonar.ping(
+DigitalPin.P1,
+DigitalPin.P2,
+PingUnit.Centimeters
+)
+d3 = sonar.ping(
+DigitalPin.P1,
+DigitalPin.P2,
+PingUnit.Centimeters
+)
+d2 = sonar.ping(
+DigitalPin.P1,
+DigitalPin.P2,
+PingUnit.Centimeters
+)
+d1 = sonar.ping(
+DigitalPin.P1,
+DigitalPin.P2,
+PingUnit.Centimeters
+)
+distance = (d1 + d2 + d3 + d4 + d5) / 5
+greekled.showNumber(distance)
