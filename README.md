@@ -1,6 +1,8 @@
 # roboticsblindaid
 Σύστημα Ειδοποίησης Ατόμων με Προβλήματα Όρασης
 
+![alt text](https://github.com/tkleisas/roboticsblindaid/blob/master/rba.gif?raw=true "Πρωτότυπο #1")
+
 Υλικά
 =====
 1. Αισθητήρας Υπερήχων HC-SR04 https://grobotronics.com/ultrasonic-sensor-sr04.html
