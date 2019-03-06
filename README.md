@@ -3,15 +3,15 @@
 
 Υλικά
 =====
-1. !(https://grobotronics.com/ultrasonic-sensor-sr04.html "Αισθητήρας Υπερήχων HC-SR04")
-2. !(https://grobotronics.com/audio-jack-stereo-3.5mm-pcb.html "Βύσματάκι για ακουστικά 3.5mm")
-3. !(https://grobotronics.com/bbc-micro-bit-board.html "2 ή περισσότερα micro:bit")
-4. !(https://grobotronics.com/pololu-dc-dc-converter-step-up-5v-1.2a.html "Boost converter για τη μετατροπή της τάσης από τα 3V που θα παρέχουν οι μπαταρίες στα 5V που απαιτεί ο αισθητήρας")
-5. !(https://grobotronics.com/logic-level-converter-bi-directional.html "Logic level converter για τη μετατροπή των τάσεων μεταξύ 3V και 5V έτσι ώστε να μπορούν να επικοινωνήσουν ο αισθητήρας υπερήχων που δουλεύει στα 5V με το microbit που δουλεύει στα 3V.")   
-5. !(https://grobotronics.com/battery-holder-2xa-with-jst-ph-connector.html "Μπαταριοθήκες")
-6. !(https://grobotronics.com/160x115mm.html "Perfboard για να συναρμολογήσουμε το κύκλωμά μας").
-7. !(https://grobotronics.com/prototyping/hook-up-wires/ "Μονόκλωνο καλώδιο σε διάφορα χρώματα για να κάνουμε τις συνδέσεις ").
-8. !(https://grobotronics.com/pin-header-1x40-female-2.54-mm.html "Pin header για την προσαρμογή του αισθητήρα υπερήχων στην πλακέτα")
+1. Αισθητήρας Υπερήχων HC-SR04 https://grobotronics.com/ultrasonic-sensor-sr04.html
+2. Βύσματάκι για ακουστικά 3.5mm https://grobotronics.com/audio-jack-stereo-3.5mm-pcb.html
+3. 2 ή περισσότερα micro:bit https://grobotronics.com/bbc-micro-bit-board.html
+4. Boost converter για τη μετατροπή της τάσης από τα 3V που θα παρέχουν οι μπαταρίες στα 5V που απαιτεί ο αισθητήρας https://grobotronics.com/pololu-dc-dc-converter-step-up-5v-1.2a.html
+5. Logic level converter για τη μετατροπή των τάσεων μεταξύ 3V και 5V έτσι ώστε να μπορούν να επικοινωνήσουν ο αισθητήρας υπερήχων που δουλεύει στα 5V με το microbit που δουλεύει στα 3V. https://grobotronics.com/logic-level-converter-bi-directional.html   
+5. Μπαταριοθήκες https://grobotronics.com/battery-holder-2xa-with-jst-ph-connector.html
+6. Perfboard για να συναρμολογήσουμε το κύκλωμά μας https://grobotronics.com/160x115mm.html
+7. Μονόκλωνο καλώδιο σε διάφορα χρώματα για να κάνουμε τις συνδέσεις https://grobotronics.com/prototyping/hook-up-wires/
+8. Pin header για την προσαρμογή του αισθητήρα υπερήχων στην πλακέτα! https://grobotronics.com/pin-header-1x40-female-2.54-mm.html
 Προαιρετικά:
 μοτέρ και Motor Driver Board για ειδοποίηση με δόνηση
 
