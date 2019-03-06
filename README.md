@@ -20,4 +20,13 @@
 Μπορούμε να δούμε στο επόμενο διάγραμμα μια ενδεικτική υλοποίηση ενός τέτοιου συστήματος που περιλαμβάνει μπαταρίες, ένα micro:bit, έναν αισθητήρα υπερήχων και έναν DC - DC boost converter. Επειδή το micro:bit θέλει 3 Volts, ενώ ο αισθητήρας χρειάζεται 5 Volts, χρησιμοποιούμε τον boost converter για να πάρουμε 5 Volts από τις δυο μπαταρίες ΑΑΑ που δίνουν 3 Volts. Με αυτό τον τρόπο μπορούμε να κάνουμε πιο μικρό και πιο ελαφρύ το κύκλωμά μας, πράγμα που είναι απαραίτητο για μια συσκευή που πρέπει να φοριέται. Θα μπορούσαμε να χρησιμοποιήσουμε ακόμη και μια μικρή, στρογγυλή μπαταρία λιθίου 3V (πχ CR2032) για ακόμη πιο μικρή συσκευή. Τέλος υπάρχει και ένα 3.5 mm jack στο οποίο μπορούμε να συνδέσουμε ακουστικό ώστε να έχουμε ηχητική ειδοποίηση.
 ![alt text](https://github.com/tkleisas/roboticsblindaid/blob/master/micro_bit_ultrasonic_bb.png?raw=true "Micro:bit and ultrasonic sensor")
 Μπορείτε να δείτε επίσης μερικές φωτογραφίες από την δοκιμαστική υλοποίηση που κάναμε.
+![alt text](https://github.com/tkleisas/roboticsblindaid/blob/master/IMG_20190215_143434.jpg?raw=true "Πλακέτα από πάνω")
 
+![alt text](https://github.com/tkleisas/roboticsblindaid/blob/master/IMG_20190215_143452.jpg?raw=true "Πλακέτα από κάτω")
+
+![alt text](https://github.com/tkleisas/roboticsblindaid/blob/master/IMG_20190215_143458.jpg?raw=true "Πλακέτα από πλάϊ")
+
+![alt text](https://github.com/tkleisas/roboticsblindaid/blob/master/IMG_20190215_143723.jpg?raw=true "Στον πάγκο εργασίας")
+
+Πατήστε εδώ για να δείτε το βίντεο με το πρωτότυπο.
+https://youtu.be/QQmOa1Lk4nE
