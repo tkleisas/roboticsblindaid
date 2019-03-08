@@ -1,0 +1,20 @@
+let distance = 0
+input.onButtonPressed(Button.AB, function () {
+    distance = 40
+})
+input.onButtonPressed(Button.A, function () {
+    distance += -10
+})
+input.onButtonPressed(Button.B, function () {
+    distance += 10
+})
+distance = 40
+basic.forever(function () {
+    greekled.showNumber(distance)
+    music.playTone(147, music.beat(BeatFraction.Sixteenth))
+    music.playTone(0, music.beat(BeatFraction.Whole))
+    music.setTempo(183.209 - distance)
+    if (distance <= 0) {
+        distance = 0
+    }
+}
