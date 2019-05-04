@@ -1,0 +1,10 @@
+radio.setGroup(170)
+radio.onReceivedNumber(function (receivedNumber) {
+    LCD1IN8.LCD_Init()
+    LCD1IN8.LCD_SetBL(10)
+    LCD1IN8.LCD_Clear()
+    LCD1IN8.LCD_Filling(LCD1IN8.Get_Color(LCD_COLOR.BLUE))
+    LCD1IN8.DisNumber(60, 60, receivedNumber, LCD1IN8.Get_Color(LCD_COLOR.BLACK))
+    LCD1IN8.LCD_Display()
+    greekled.showNumber(receivedNumber)
+})
