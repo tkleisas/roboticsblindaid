@@ -1,0 +1,63 @@
+let d = 10
+let dist = 0
+radio.setGroup(170)
+function readUS(times: number) {
+    let v = 0
+    for (let i = 0; i < times; i++) {
+        v = v + sonar.ping(DigitalPin.P1, DigitalPin.P2, PingUnit.Centimeters)
+    }
+    return Math.round(v / times)
+}
+greekled.showNumber(d)
+music.playTone(262, 300)
+music.playTone(294, 300)
+music.playTone(330, 300)
+input.onButtonPressed(Button.A, function () {
+    d += -10
+    if (d <= 10) {
+        d = 10
+    }
+    greekled.showNumber(d)
+    for (let i = 0; i < d / 10; i++) {
+        music.playTone(262, 300)
+        basic.pause(50)
+    }
+})
+input.onButtonPressed(Button.B, function () {
+    d += 10
+    if (d > 200) {
+        d = 200
+    }
+    greekled.showNumber(d)
+    for (let i = 0; i < d / 10; i++) {
+        music.playTone(392, 300)
+        basic.pause(50)
+    }
+})
+input.onButtonPressed(Button.AB, function () {
+    music.beginMelody(music.builtInMelody(Melodies.JumpUp), MelodyOptions.Once)
+    let ti = input.runningTime()
+    basic.forever(function () {
+        dist = readUS(10)
+        greekled.showNumber(dist)
+        let t = input.runningTime()
+        let td = t - ti
+        if (td >= 2000) {
+            radio.sendNumber(dist)
+            ti += 2000
+        }
+        if (dist <= d && dist >= d - 20) {
+            music.ringTone(988)
+        } else if (dist <= d - 20 && dist >= d - 40) {
+            music.ringTone(659)
+        } else if (dist <= d - 40 && dist >= d - 60) {
+            music.ringTone(494)
+        } else if (dist <= d - 60 && dist >= d - 80) {
+            music.ringTone(330)
+        } else if (dist <= d - 80 && dist >= d - 100) {
+            music.ringTone(165)
+        } else {
+            music.ringTone(0)
+        }
+    })
+})
