@@ -3,6 +3,10 @@
 
 ![alt text](https://github.com/tkleisas/roboticsblindaid/blob/master/rba.gif?raw=true "Πρωτότυπο #1")
 
+Παρουσίαση του Project με βίντεο
+================================
+https://www.youtube.com/watch?v=oLjfnk1CDiU
+
 Υλικά
 =====
 1. Αισθητήρας Υπερήχων HC-SR04 https://grobotronics.com/ultrasonic-sensor-sr04.html
